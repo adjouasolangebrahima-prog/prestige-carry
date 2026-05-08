@@ -64,7 +64,7 @@
     }
     .product-card img {
       width: 100%;
-      height: 380px;
+      height: 420px;
       object-fit: cover;
     }
     .product-info {
@@ -73,7 +73,7 @@
     }
     .price { 
       color: var(--or); 
-      font-size: 1.6rem; 
+      font-size: 1.7rem; 
       font-weight: 700; 
       margin: 10px 0;
     }
@@ -106,9 +106,9 @@
   </section>
 
   <section id="contact" style="background:#111; text-align:center; padding:100px 5%;">
-    <h2>Contact & Commande Rapide</h2>
-    <p>Écrivez-nous directement sur WhatsApp</p>
-    <a href="https://wa.me/213554983012?text=Bonjour%20Prestige%20Carry%2C%20je%20souhaite%20passer%20commande" 
+    <h2>Contact & Commande</h2>
+    <p>Commandez directement sur WhatsApp</p>
+    <a href="https://wa.me/2250554983012?text=Bonjour%20Prestige%20Carry%2C%20je%20souhaite%20passer%20commande" 
        class="btn" style="background:#25D366; display:inline-block; margin:20px 0;" target="_blank">
       💬 Commander sur WhatsApp
     </a>
@@ -123,9 +123,8 @@
       {
         name: "Sac à Dos Prestige",
         price: "10.000 FCFA",
-        image: "https://via.placeholder.com/800x800/1a1a1a/555555?text=Sac+Prestige"  
+        image: "https://i.imgur.com/VOTRELIEN1.jpg"   // ← Tu remplaceras ce lien
       }
-      // Tu peux ajouter d'autres produits ici
     ];
 
     const container = document.getElementById('products');
@@ -137,7 +136,7 @@
         <div class="product-info">
           <h3>${p.name}</h3>
           <div class="price">${p.price}</div>
-          <button class="btn" onclick="window.open('https://wa.me/213554983012?text=Bonjour%2C%20je%20veux%20le%20${encodeURIComponent(p.name)}%20à%2010.000%20FCFA', '_blank')">
+          <button class="btn" onclick="window.open('https://wa.me/2250554983012?text=Bonjour%2C%20je%20veux%20le%20Sac%20%C3%A0%20Dos%20Prestige%20%C3%A0%2010.000%20FCFA', '_blank')">
             Commander via WhatsApp
           </button>
         </div>
